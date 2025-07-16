@@ -1,0 +1,8 @@
+write data in file uisng fs module,
+input data should be taken using terminal (only google this only)
+
+
+console.log(process.argv);
+
+argv take input from  terminal 
+it is a arry in which first 2 elemets are already there
