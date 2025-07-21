@@ -18,7 +18,7 @@ rl.question('Enter titial of your ToDo list: ', (title) => {
 
           if(err) console.log(err);
             todo=JSON.parse(data);
-            let task=[{Title:title,Desc:desc }];
+            let task={Title:title,Desc:desc };
          todo.push(task);  //{Title:title,Desc:desc }
           console.log(todo)
           //now will write it in a file
@@ -34,4 +34,4 @@ rl.question('Enter titial of your ToDo list: ', (title) => {
 });
 
 
-// console.log(color)
+
