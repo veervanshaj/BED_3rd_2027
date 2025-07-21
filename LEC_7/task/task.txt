@@ -1,0 +1,1 @@
+add 2 user to onr file then 2 to another file then read them store them into another arry and write into 3rd file
